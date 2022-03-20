@@ -148,5 +148,5 @@ Para más información se dispone de la tabla detalle, la cual puede ser exporta
 
 ### ¡Aún más fácil!
 
-Cada uno de los elementos del dashboard dispone de una ayuda visual, llamada TipTool, que nos permitirá visualizar de forma ágil y rápida un conjunto de datos personalizados cuando se coloca el cursor sobre alguno de los objetos de un determinado panel, logrando así, expandir la información a través de una ventana emergente.
+Cada uno de los elementos del dashboard dispone de una ayuda visual, llamada Tooptip, que nos permitirá visualizar de forma ágil y rápida un conjunto de datos personalizados cuando se coloca el cursor sobre alguno de los objetos de un determinado panel, logrando así, expandir la información a través de una ventana emergente.
 <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/ToolTip.jpg" width="700px" height="400px">
