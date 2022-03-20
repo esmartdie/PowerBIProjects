@@ -36,54 +36,53 @@ El proyecto parte de una información suministrada en un archivo excel, el cuál
 
 **Tabla Sueldo:**
 
-| Nombre de Campo  | Tipo  | Descripción |
-| :------------ |:---------------:| -----:|
-| Bono del ejercicio      | TBD | TBD |
-| Grupo sueldo      | TBD        |   TBD |
-|ID empleado | TBD        |    TBD |
-|Sueldo | TBD       |  TBD |
-|Sueldo próximo ejercicio | TBD       |   TBD |
+|Nombre de Campo  |Tipo  |Descripción |
+| :------------ |:---------------:| :------------|
+|Bono del ejercicio      | Campo Calculado |Bono del ejercicio teniendo en cuenta la columna calculada “Desempeño” de la tabla Evaluación. |
+|Grupo sueldo      | Campo calculado        |Sueldo agrupado por rango |
+|ID empleado | Campo original  |ID único por empleado |
+|Sueldo | Campo original       |Sueldo del empleado |
+|Sueldo próximo ejercicio | Campo calculado       |Sueldo NY del ejercicio teniendo en cuenta la columna calculada “Desempeño” de la tabla Evaluación. |
 
 
 **Tabla Empleados:**
 
 | Nombre de Campo  | Tipo  | Descripción |
-| :------------ |:---------------:| -----:|
-| Departamento     | TBD | TBD |
-| Edad    | TBD        |   TBD |
-|Estado | TBD        |    TBD |
-|Género | TBD       |  TBD |
-|Grupo Edad | TBD       |   TBD |
-| ID Empleado     | TBD | TBD |
-| Nacimiento    | TBD        |   TBD |
-|Nombre Empleado | TBD        |    TBD |
-|Nombre jefe | TBD       |  TBD |
-|País | TBD       |   TBD |
-|Posición | TBD       |   TBD |
+| :------------ |:---------------:| :------------|
+| Departamento     | Campo original | Departamento del empleado |
+| Edad    | Campo original        |   Edad del empleado |
+|Estado | Campo original        |   Lugar geográfico de ubicación del empleado |
+|Género | Campo original       |  Género del empleado |
+|Grupo Edad | Campo calculado      |   Edad agrupada por diferentes rangos |
+| ID Empleado     | Campo original | Id interno del empleado |
+| Nacimiento    | Campo original        |   Fecha completa de nacimiento |
+|Nombre Empleado | Campo original        |    Nombre del empleado |
+|Nombre jefe | Campo original       |  Nombre del jefe del empleado |
+|País | Campo transformado     |   Split de la columna Estado |
+|Posición | Campo original       |   Cargo del empleado |
 
 **Tabla Evaluación:**
 
 | Nombre de Campo  | Tipo  | Descripción |
-| :------------ |:---------------:| -----:|
-| Calificación     | TBD | TBD |
-| Desempeño    | TBD        |   TBD |
-|Evaluación | TBD        |    TBD |
-|Grupo Evaluación | TBD       |  TBD |
-|ID Empleado | TBD       |   TBD |
+| :------------ |:---------------:| :------------|
+| Calificación     | Campo calculado | Evaluación agrupada por desempeño empleando escala de "estrellas" |
+| Desempeño    | Campo calculado        |   Evaluación agrupada por rango de evaluación |
+|Evaluación | Campo original        |    Evaluación del empleado |
+|Grupo Evaluación | Campo calculado       |  Evaluación agrupada por rango de evaluación |
+|ID Empleado | Campo original       |   ID único por empleado |
 
 
 **Medidas DAX:**
 
-| Nombre de Campo  | Descripción  | Cálculo |
-| :------------ |:---------------:| -----:|
-| Calificación     | TBD | TBD |
-| Rendimiento Brillante    | TBD        |   TBD |
-|Rendimiento Bueno | TBD        |    TBD |
-|Retiro Empleados | TBD       |  TBD |
-|Sueldo por categoría | TBD       |   TBD |
-| Sueldo promedio     | TBD | TBD |
-| Sueldo promedio NY     | TBD | TBD |
-| Total empleados     | TBD | TBD |
+| Nombre de Campo  | Cálculo |
+| :------------ | :------------|
+| Rendimiento Brillante    | CALCULATE( [Total empleados], 'Tabla Evaluacion'[Evaluación]> 8)  | 
+|Rendimiento Bueno | CALCULATE( [Total empleados], 'Tabla Evaluacion'[Desempeño] = "Bueno")        |
+|Retiro Empleados | VAR edad_retiro = Calculate( [Total empleados],'Tabla Empleados'[Edad] >= 67) RETURN IF(ISBLANK(edad_retiro),0,edad_retiro) | 
+|Sueldo por categoría | countrows ()      | 
+| Sueldo promedio     | VAR Sueldo_Promedio = AVERAGE('Tabla Sueldo'[Sueldo]) Return IF(Isblank(Sueldo_Promedio),0,Sueldo_Promedio)  |
+| Sueldo promedio NY     | VAR Sueldo_Promedio_NY = AVERAGE('Tabla Sueldo'[Sueldo Prox Ejercicio]) RETURN IF(Isblank(Sueldo_Promedio_NY),0,Sueldo_Promedio_NY)  |
+| Total empleados     | VAR Total_empleados = countrows('Tabla Empleados') Return  If(Isblank(Total_empleados),0,Total_empleados)  | 
 
 
 ### Tablero: Página principal
@@ -148,5 +147,5 @@ Para más información se dispone de la tabla detalle, la cual puede ser exporta
 
 ### ¡Aún más fácil!
 
-Cada uno de los elementos del dashboard dispone de una ayuda visual, llamada Tooltip, que nos permitirá visualizar de forma ágil y rápida un conjunto de datos personalizados cuando se coloca el cursor sobre alguno de los objetos de un determinado panel, logrando así, expandir la información a través de una ventana emergente.
-<img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/ToolTip.jpg" width="700px" height="400px">
+Cada uno de los elementos del dashboard dispone de una ayuda visual, llamada Tooltip, que nos permitirá visualizar de forma ágil y rápida un conjunto de datos personalizados cuando se coloca el cursor sobre alguno de los objetos de un determinado panel, logrando así, expandir la información a través de una ventana emergente.  
+<img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/ToolTip.jpg" width="550px" height="300px">
