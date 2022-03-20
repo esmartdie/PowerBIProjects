@@ -32,7 +32,7 @@ Con análisis de datos, se pone a disposición del área de RRHH la posibilidad,
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/DDBB.jpg)
 
 
-El proyecto se basó en las siguientes tablas.
+El proyecto parte de una información suministrada en un archivo excel, el cuál luego de ser analizado genera la siguiente serie de tablas y medidas para nutrir la información de los diferentes informes.
 
 **Tabla Sueldo:**
 
@@ -88,12 +88,15 @@ El proyecto se basó en las siguientes tablas.
 
 ### Tablero: Página principal
 
-En esta página se puede apreciar un resumen de los datos de los empleados, observando datos importantes en las Tarjetas como son la cantidad de empleados, sueldo promedio, etc.
-También se puede visualizar diferente agrupación de los empleados por evaluación, sueldo, departamento, etc. Mediante un gráfico de dona, se puede explorar la relación empleados – género.
-Para más información está disponible la información en modo tabla detalle. 
-Se ha incluido un mapa para ver de forma rápida la distribución de los empleados en el país.
+En esta página se puede apreciar un resumen de los datos de los empleados, observando datos importantes en las Tarjetas como son la cantidad de empleados, sueldo promedio, etc.  
+También se puede visualizar diferente agrupación de los empleados por evaluación, sueldo, departamento, etc. Mediante un gráfico de dona, se puede explorar la segmentación de empleados por género.  
+Una medida importante a destacar es cuántos empleados están prontos a retirarse, la cual toma como factor la edad de retiro habitual en los Estados Unidos.
+Para más información está disponible la información en modo tabla detalle. Adicionalmente, se ha incluido un mapa para ver de forma rápida la distribución de los empleados en el país.
+Esta vista principal tiene interacción con las distintas solapas a través de los íconos superiores.  
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Home.jpg)
+
+
 
 ### Tablero: Detalle Empleados
 
@@ -110,28 +113,34 @@ Aparece una tabla detalle con mayor información, la cual se puede exportar.
 
 ### Tablero: Análisis de sueldo
 
-Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Salary.jpg" width="25px" height="25px"> se puede visualizar la página “Análisis de sueldo”. Esta página contiene un análisis sobre los sueldos de los empleados. Se puede realizar 2 tipos de filtros distintos:
+Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Salary.jpg" width="25px" height="25px"> se puede visualizar la página “Análisis de sueldo”. Esta página contiene un análisis sobre los sueldos de los empleados.  
+Se puede realizar 2 tipos de filtros distintos:
 - **Por grupo de edad:** Es un filtro de menú desplegable en el cual se podrán seleccionar múltiples opciones
 - **Por grupo de sueldo:** Es un filtro de menú desplegable en el cual se podrán seleccionar múltiples opciones
 
-Se pueden visualizar diferentes gráficos con medidas variadas para un estudio del sueldo de los empleados, también se visualizan las tarjetas con información importante resumida.
-Para mas información se dispone de la tabla detalle.
+Se pueden visualizar diferentes gráficos con medidas variadas para un estudio del sueldo de los empleados, también se disponen las tarjetas con los totales más relevantes.  
+Se destaca el gráfico de dispersión, el cual nos ayuda a visualizar rápidamente la línea de tendencia y así poder detectar los casos que se desvían.
+Para más información se dispone de la tabla detalle.
+También es importante la visión del gráfico de sueldos por posición, en el cual podremos ver los sueldos por cada uno de los puestos jerárquicos de la organización y si existen o no, diferencias por género.
+Gracias al gráfico de geolocalización, podremos ver rápidamente dónde están agrupados los empleados y cuál es la predominancia de los rangos y categorías salariales.
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/SalaryAnalysis.jpg)
 
 ### Tablero: Análisis de desempeño
 
-Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Performance.jpg" width="25px" height="25px"> se puede visualizar la página “Análisis de desempeño”. Esta página permite realizar un análisis sobre el desempeño de los empleados sin que lleve demasiado tiempo.
-Dispone de distintos gráficos con distintas mediciones, las tarjetas resumiendo los empleados según su rendimiento y para más información se dispone de la tabla detalle.
+Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Performance.jpg" width="25px" height="25px"> se puede visualizar la página “Análisis de desempeño”.Esta página permite realizar un análisis sobre el desempeño de los empleados sin que lleve demasiado tiempo.  
+Dispone de distintos gráficos con distintas mediciones, las tarjetas resumiendo los empleados según su rendimiento y para más información se dispone de la tabla detalle.  
+En el gráfico de geolocalización, a medida que los círculos son más grandes es donde mejor desempeño tienen los empleados. También se evalúa por jefes, a través de un gráfico de barras horizontales de visualiza el promedio de desempeño de los empleados que tiene a cargo cada jefe.
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/PerformanceAnalysis.jpg)
 
 
 ### Tablero: Sueldo próximo año
 
-Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Projection.jpg" width="25px" height="25px"> se puede visualizar la página “Sueldo próximo año”. Esta página permite visualizar una proyección en cuanto a los sueldos del próximo ejercicio.
-Se visualizan las tarjetas de totales, que permiten una rápida interpretación de la información que será detallada con dos gráficos de barras en donde se compara el sueldo actual con el próximo año, así como también el sueldo promedio.
-Para más información se dispone de la tabla detalle, la cual puede ser exportada.
+Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Projection.jpg" width="25px" height="25px"> se puede visualizar la página “Sueldo próximo año”. Esta página permite visualizar una proyección en cuanto a los sueldos del próximo ejercicio.  
+Se visualizan las tarjetas con totales, que permiten una rápida interpretación de la información que será detallada con dos gráficos de barras en donde se compara el sueldo actual con el próximo año, así como también el sueldo promedio.  
+Partiendo de las evaluaciones de desempeño que se han tenido en el año en curso, podremos medir cuanto se estaría abonando el próximo año por sueldos anuales, teniendo en cuenta un incentivo salarial y cuál es el bono asociado a cada empleado, teniendo en cuenta su evaluación de desempeño.  
+Para más información se dispone de la tabla detalle, la cual puede ser exportada.  
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/ProjectionNextYear.jpg)
 
