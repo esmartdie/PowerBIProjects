@@ -4,8 +4,8 @@
 
 ### ¿Por qué un tablero para RRHH?
 
-El capital humano de una empresa es sin duda su recurso mas importante. Representa el principal factor de la producción, siendo la pieza principal en el logro de metas, que conllevan al crecimiento de la empresa.
-Es imprescindible realizar una buena gestión de talento, por lo que la analítica es una herramienta esencial para ayudar a la correcta toma de decisiones. 
+El capital humano de una empresa es sin duda su recurso mas importante. Representa el principal factor de la producción, siendo la pieza principal en el logro de metas, que conllevan al crecimiento de la empresa.  
+Es imprescindible realizar una buena gestión de talento, por lo que la analítica es una herramienta esencial para ayudar a la correcta toma de decisiones.   
 Con análisis de datos, se pone a disposición del área de RRHH la posibilidad, no solo de poder medir resultados generales, sino que permite planificar actividades y proyectos que se orienten a potenciar y retener el talento humano en la empresa, ya que al fin y al cabo todas las organizaciones están compuesta por personas.
 
 ### ¿Qué me permite visualizar?
@@ -91,7 +91,7 @@ El proyecto parte de una información suministrada en un archivo excel, el cuál
 En esta página se puede apreciar un resumen de los datos de los empleados, observando datos importantes en las Tarjetas como son la cantidad de empleados, sueldo promedio, etc.  
 También se puede visualizar diferente agrupación de los empleados por evaluación, sueldo, departamento, etc. Mediante un gráfico de dona, se puede explorar la segmentación de empleados por género.  
 Una medida importante a destacar es cuántos empleados están prontos a retirarse, la cual toma como factor la edad de retiro habitual en los Estados Unidos.
-Para más información está disponible la información en modo tabla detalle. Adicionalmente, se ha incluido un mapa para ver de forma rápida la distribución de los empleados en el país.
+Para más información está disponible la información en modo tabla detalle. Adicionalmente, se ha incluido un mapa para ver de forma rápida la distribución de los empleados en el país.  
 Esta vista principal tiene interacción con las distintas solapas a través de los íconos superiores.  
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Home.jpg)
@@ -100,7 +100,8 @@ Esta vista principal tiene interacción con las distintas solapas a través de l
 
 ### Tablero: Detalle Empleados
 
-Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Detail.jpg" width="25px" height="25px"> se puede visualizar la página “Detalle Empleados”. En esta página se puede realizar 4 tipos de filtros distintos:
+Accediendo a través del ícono <img src="https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/Detail.jpg" width="25px" height="25px"> se puede visualizar la página “Detalle Empleados”.  
+En esta página se puede realizar 4 tipos de filtros distintos:
 - **Por Estado:** Es un filtro de selección múltiple
 - **Por edad del empleado:** Es un filtro que permite deslizar la barra para seleccionar un rango de edad
 - **Por posición:** Es un filtro de menú desplegable en el cual se podrán seleccionar múltiples opciones
@@ -120,8 +121,8 @@ Se puede realizar 2 tipos de filtros distintos:
 
 Se pueden visualizar diferentes gráficos con medidas variadas para un estudio del sueldo de los empleados, también se disponen las tarjetas con los totales más relevantes.  
 Se destaca el gráfico de dispersión, el cual nos ayuda a visualizar rápidamente la línea de tendencia y así poder detectar los casos que se desvían.
-Para más información se dispone de la tabla detalle.
-También es importante la visión del gráfico de sueldos por posición, en el cual podremos ver los sueldos por cada uno de los puestos jerárquicos de la organización y si existen o no, diferencias por género.
+Para más información se dispone de la tabla detalle.  
+También es importante la visión del gráfico de sueldos por posición, en el cual podremos ver los sueldos por cada uno de los puestos jerárquicos de la organización y si existen o no, diferencias por género.  
 Gracias al gráfico de geolocalización, podremos ver rápidamente dónde están agrupados los empleados y cuál es la predominancia de los rangos y categorías salariales.
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/RRHHDashboard/SalaryAnalysis.jpg)
