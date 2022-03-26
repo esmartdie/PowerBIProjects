@@ -30,7 +30,7 @@ Este tablero tiene como finalidad evaluar el desempeño, cantidad de tickets y p
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/ITAgentsDashboard/BBDD.jpg)
 
-El proyecto parte de una información suministrada en un archivo excel,  la cual tuvo que sufrir varias transformaciones para poder ser estructurarada de forma tal que se pueda explotar de la forma más eficiente.
+El proyecto parte de una información suministrada en un archivo Excel,  la cual tuvo que sufrir varias transformaciones para poder ser estructurarada de forma tal que se pueda explotar de la forma más eficiente.
 
 Se crearon las siguientes tablas:
 
@@ -47,12 +47,12 @@ Se crearon las siguientes tablas:
 
 *También se tiene una conexión por medio de una URL, a información que está contenida en un dropbox.*  
 
-*Se realizó limpieza de archivos excel, eliminando columnas innecesarias y reubicando datos. Las tablas de "Plantas" se unieron en una sola.*    
+*Se realizó limpieza de archivos Excel, eliminando columnas innecesarias y reubicando datos. Las tablas de "Plantas" se unieron en una sola.*    
 
 *Se creo una tabla calendario, de las fechas de operación. Se añadió como campo calculado, una columna que indica si es día laboral o no, el cual tiene en cuenta los fines de semana. Adicionalmente, se creo un campo de "Short Description" para el día de la semana*
 
 **Conjunto de tablas de hecho:**
-- Fact_Tickets : Es la conjunción de los 5 archivos excel. Los datos tendrá el dato fuente para conocer su origen.
+- Fact_Tickets : Es la conjunción de los 5 archivos Excel. Los datos tendrá el campo "Source" para conocer su origen.
 
 
 
