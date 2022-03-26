@@ -1,4 +1,4 @@
-# IT AGENTS TRACK
+# IT AGENTS DASHBOARD
 
 ##### El paso a paso del análisis de tickets del área de soporte de TI
 
@@ -41,9 +41,18 @@ Se crearon las siguientes tablas:
 - Dim_Empleados
 - Dim_Calendario  
 
+*Las tablas DIM sufrieron una serie de transformaciones, por ejemplo la fecha de nacimiento, la cual es el concatenado de día, mes y año. Luego hay columnas calculadas como el "Grupo Etario" la cual es una nueva columna, teniendo en cuenta la edad del empleado.*
+
+*En el caso del género del empleado, se utilizó una tabla para obtener la descripción.*  
+
+*También se tiene una conexión por medio de una URL, a información que está contenida en un dropbox.*  
+
+*Se realizó limpieza de archivos excel, eliminando columnas innecesarias y reubicando datos. Las tablas de "Plantas" se unieron en una sola.*    
+
+*Se creo una tabla calendario, de las fechas de operación. Se añadió como campo calculado, una columna que indica si es día laboral o no, el cual tiene en cuenta los fines de semana. Adicionalmente, se creo un campo de "Short Description" para el día de la semana*
 
 **Conjunto de tablas de hecho:**
-- Fact_Tickets
+- Fact_Tickets : Es la conjunción de los 5 archivos excel. Los datos tendrá el dato fuente para conocer su origen.
 
 
 
