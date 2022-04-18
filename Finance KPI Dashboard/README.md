@@ -71,7 +71,7 @@ Para que el tablero sea eficiente y pueda recibir actualización de la informaci
 En esta página podremos apreciar los gráficos sobre: Cuota de ingresos, Cuota de gastos, Cuota de utilidad y Cuota de saldo.
 Si se selecciona alguno de ellos se podrá acceder a un nivel más detallado.
 
-![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/F1.jpg)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/T3.jpg)
 
 Detallemos un poco más cada una de las mediciones:
 
@@ -97,7 +97,7 @@ Además, haciendo clic sobre el botón "¿Por qué no cumplí  la cuota de ingre
 
 En este tablero podremos tener el detalle sobre los gastos en el año y mes seleccionado. Nos permitirá rápidamente saber, si hemos tenido una desviación y que tan grave ha sido.
 
-![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/CUOTAGASTOS.jpg)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/T1.jpg)
 
 Además, haciendo clic sobre el botón "¿Por qué sobrepasé la cuota de gastos?" podremos acceder a un nivel más detallado:
 
@@ -108,7 +108,7 @@ Además, haciendo clic sobre el botón "¿Por qué sobrepasé la cuota de gastos
 
 En este tablero podremos tener el detalle sobre la utilidad en el año y mes seleccionado. Nos permitirá rápidamente saber, si hemos alcanzado o no las metas.
 
-![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/CUOTAUTILIDAD.jpg)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/T2.jpg)
 
 Además, haciendo clic sobre el botón "Detalle de utilidad" podremos acceder a un nivel más detallado:
 
