@@ -1,14 +1,13 @@
 # IT AGENTS DASHBOARD
 
-##### El paso a paso del análisis de tickets del área de soporte de TI
 
-### ¿Por qué un tablero para gestión de tickets?
+## ¿Por qué un tablero para gestión de tickets?
 
 Analizar los tickets de un área de soporte es una manera de entender lo que se debe hacer para asegurar la satisfacción de los clientes, pudiendo prever si algo no está funcionando bien antes de que se llegue a convertir en un problema.
 
 Este tablero tiene como finalidad evaluar el desempeño, cantidad de tickets y porcentaje de satisfacción de los usuarios de un área de soporte de IT, que se encarga de evaluar y tomar a cargo incidentes de distintas áreas de una empresa durante un período de 4 años.
 
-### ¿Qué me permite visualizar?
+## ¿Qué me permite visualizar?
 
 - Visualización rápida y clara sobre cantidad de tickets atendidos en un período
 - Posibilidad de una vista por segmentación de tickets
@@ -17,14 +16,14 @@ Este tablero tiene como finalidad evaluar el desempeño, cantidad de tickets y p
 - Posibilidad de cambiar entre modo oscuro y modo claro
 
 
-### ¿Qué me permite medir?
+## ¿Qué me permite medir?
 - Medición sobre los tickets que se han abierto por fecha 
 - Comparativo de tickets según categorías principales
 - Total de tickets según el tiempo de duración
 - Medir el nivel de satisfacción general de los usuarios
 
 
-### Fuente de Datos
+## Fuente de Datos
 
 > Modelo de datos
 
@@ -100,13 +99,13 @@ En esta página se puede visualizar un ranking de los empleados, bien sea de los
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/ITAgentsDashboard/RankingDetail.jpg)
 
-### Tablero: Zoom
+## Tablero: Zoom
 
 Es posible realizar un zoom sobre los empleados para obtener más información, para esto es necesario posicionar el botón del puntero del mouse sobre alguno de los empleados distribuidos en la lista izquierda.  
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/ITAgentsDashboard/EmployeeDet.jpg)
 
-### ¡De día o de noche!
+## ¡De día o de noche!
 
 En los últimos años, se ha puesto de moda el modo oscuro, que además de reducir la fatiga visual del usuario, permite ahorrar el consumo de batería en los dispositivos y ayudar a la lectura.  
 Este Dashboard permite cambiar el modo de visualización para un modo Light con colores claros o un modo oscuro.  
@@ -114,7 +113,7 @@ Este Dashboard permite cambiar el modo de visualización para un modo Light con 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/ITAgentsDashboard/DarkPage.jpg)
 
 
-### Resumen.
+## Resumen.
 
 Este tablero es producto del curso de **Microsoft Power BI - Curso de Power BI Desktop** de Udemy, en donde se utilizaron las 5 fases fundamentales de Power BI Desktop:  
 
