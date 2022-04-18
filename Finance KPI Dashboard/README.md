@@ -79,7 +79,7 @@ Detallemos un poco más cada una de las mediciones:
 
 ### Tablero: Medidas
 
-En este panel podremos ver las diferentes medidas financieras mensuales. Cada columna ha mantenido el color del panel principal para ayudar al usuario a ubicarse.
+En este panel podremos ver las diferentes medidas financieras mensuales. Cada columna ha mantenido el color del panel principal para ayudar al usuario a orientarse.
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/MEDIDAS.jpg)
 
