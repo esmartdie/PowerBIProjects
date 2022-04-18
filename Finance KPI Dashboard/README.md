@@ -1,13 +1,11 @@
 # FINANCE KPI
 
 
-## ¿Para quién está destinado este tablero?
-
-En este tablero estaremos hablando de gastos, ingresos, iutilidad y saldo. Información de interés para distintos roles, como puede ser un jefe de administración y finanzas, un lider de área o a niveles gerenciales superiores como un CFO.
+En este tablero estaremos hablando de gastos, ingresos, utilidad y saldo. Información de interés para distintos roles, como puede ser un jefe de administración y finanzas, un líder de área o a niveles gerenciales superiores como un CFO.
 
 ## ¿Qué me permite visualizar?
 
-Este tablero tiene como finalidad evaluar el comportamiento de las ventas de los años 2019 y 2020. Obervaremos las siguientes medidas:
+Este tablero tiene como finalidad evaluar el comportamiento de las ventas de los años 2019 y 2020. Observaremos las siguientes medidas:
 - Ingresos + Detalle de ingresos
 - Gastos + Detalle de gastos
 - Utilidad + detalle de utilidad
@@ -25,27 +23,24 @@ Este tablero tiene como finalidad evaluar el comportamiento de las ventas de los
 
 > Modelo de datos
 
-![](imagen)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/DB.jpg)
 
-El proyecto parte de una información suministrada en un archivo Excel,  la cual tuvo que sufrir varias transformaciones para poder ser estructurarada de forma tal que se pueda explotar de la forma más eficiente.
+El proyecto parte de información suministrada en un archivo Excel, la cual tuvo que sufrir varias transformaciones para poder ser estructurada de forma tal que se pueda explotar de la forma más eficiente.
 
 Se crearon las siguientes tablas:
 
-**Conjunto de tablas DIM:**
+**Conjunto de tablas:**
 - Finanzas
 - Categoria
 - Expectativa
 - Calendarios
 
+Se realizó limpieza de archivos Excel, eliminando columnas innecesarias y reubicando datos.   
+Para que el tablero sea eficiente y pueda recibir actualización de la información de forma simple y fiable, inicialmente se parte de un acuerdo en el que se indica que no se va a cambiar el formato de los datos de ingreso, por lo que se crean 4 tablas, que no serán visibles al usuario final, sino que alimentarán las tablas finales.
 
-*Se realizó limpieza de archivos Excel, eliminando columnas innecesarias y reubicando datos.*    
-
-*Para que el tablero sea eficiente y pueda recibir actualización de la información de forma simple y fiable se parte de la premisa de que no se va a cambiar el formato de los datos de ingreso por lo que se crean 4 tablas, que no serán visibles al usuario final, sino que alimentarán las tablas finales.*
-
-**Conjunto de tablas de hecho:**
+**Unificación de tablas del origen:**
 - Metas y Presupuestos: Ya que son las medidas presupuestarias a las que queremos llegar estarán en la tabla "Expectativa" 
 - Gastos e Ingresos: Estarán en nuestra tabla Finanzas, en la que tendremos una columna que indica el origen de la información
-
 
 
 **Medidas DAX:**
@@ -74,57 +69,59 @@ Se crearon las siguientes tablas:
 ### Tablero: Página principal
 
 En esta página podremos apreciar los gráficos sobre: Cuota de ingresos, Cuota de gastos, Cuota de utilidad y Cuota de saldo.
-Si se selecciona alguno de ellos se podrá acceder a un nivel mas detallado.
+Si se selecciona alguno de ellos se podrá acceder a un nivel más detallado.
 
-![](H1)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/F1.jpg)
 
-Detallemos un poco mas cada una de las mediciones:
+Detallemos un poco más cada una de las mediciones:
 
-![](H2)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/F2.jpg)
 
 ### Tablero: Medidas
 
 En este panel podremos ver las diferentes medidas financieras mensuales. Cada columna ha mantenido el color del panel principal para ayudar al usuario a ubicarse.
 
-![](Medida)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/MEDIDAS.jpg)
 
 ## Tablero: Cuota de Ingresos
 
 En este tablero podremos tener el detalle sobre el movimiento de los ingresos en el año y mes seleccionado.
 
-![](Cuotaingreso)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/CUOTAINGRESO.jpg)
 
-Además haciendo clic sobre el botón "¿Por qué no cumplí  la cuota de ingresos?" podremos acceder a un nivel mas detallado:
+Además, haciendo clic sobre el botón "¿Por qué no cumplí  la cuota de ingresos?" podremos acceder a un nivel más detallado:
 
-![](Cuotaingreso)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/DETALLEINGRESOS.jpg)
 
 ## Tablero: Cuota de Gastos
 
 En este tablero podremos tener el detalle sobre los gastos en el año y mes seleccionado. Nos permitirá rápidamente saber, si hemos tenido una desviación y que tan grave ha sido.
 
-![](Cuotagastos)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/CUOTAGASTOS.jpg)
 
-Además haciendo clic sobre el botón "¿Por qué sobrepasé la cuota de gastos?" podremos acceder a un nivel mas detallado:
+Además, haciendo clic sobre el botón "¿Por qué sobrepasé la cuota de gastos?" podremos acceder a un nivel más detallado:
 
-![](Cuotagastos)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/DETALLEGASTOS.jpg)
 
 
 ## Tablero: Cuota de Utilidad
 
 En este tablero podremos tener el detalle sobre la utilidad en el año y mes seleccionado. Nos permitirá rápidamente saber, si hemos alcanzado o no las metas.
 
-![](Utilidad)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/CUOTAUTILIDAD.jpg)
 
-Además haciendo clic sobre el botón "Detalle de utilidad" podremos acceder a un nivel mas detallado:
+Además, haciendo clic sobre el botón "Detalle de utilidad" podremos acceder a un nivel más detallado:
 
-![](Utilidad)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/DETALLEUTILIDAD.jpg)
+
+
 
 
 ## Tablero: Cuota de Saldos
 
 En este tablero podremos tener el detalle sobre el saldo en el año y mes seleccionado. Nos permitirá rápidamente saber, si hemos alcanzado o no las metas de acuerdo con la utilidad y el saldo obtenido, versus el esperado.
 
-![](Saldos)
+![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/FINANCE/CUOTADESALDO.jpg)
 
 
 
