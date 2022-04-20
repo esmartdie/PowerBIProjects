@@ -10,6 +10,19 @@ I used Contoso BI demo dataset to create this amazing dashboard, that I will exp
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/DB.jpg)
 
+## Dax measures
+
+![image](https://user-images.githubusercontent.com/95239524/164251032-9022a70e-f0ca-4cf4-bff3-49864d5b9714.png)
+
+
+### Selector Dax Measures
+
+![image](https://user-images.githubusercontent.com/95239524/164251226-f197b899-d3b3-4271-af4f-445529dd7e79.png)
+
+### WhatIf Dax Measures
+
+![image](https://user-images.githubusercontent.com/95239524/164251350-845b9986-a952-42dd-8ef5-465a186c6798.png)
+
 
 ## Main
 
