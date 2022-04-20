@@ -43,7 +43,7 @@ I used Contoso BI demo dataset to create this amazing dashboard, that I will exp
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/Products.jpg)
 
-### Products + Tooltip
+### Products + Tooltips
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/ProductsTooltip.jpg)
 
@@ -53,7 +53,7 @@ I used Contoso BI demo dataset to create this amazing dashboard, that I will exp
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/Returns.jpg)
 
-### Returns + Tooltip
+### Returns + Tooltips
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/ReturnsTooltip.jpg)
 
@@ -64,7 +64,7 @@ I used Contoso BI demo dataset to create this amazing dashboard, that I will exp
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/WhatIF.jpg)
 
-### What IF + Tooltip
+### What IF + Tooltips
 
 ![](https://github.com/esmartdie/Multimedia/blob/main/IMAGES/Contoso/WhatIfinformation.jpg)
 
