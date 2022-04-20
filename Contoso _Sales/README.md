@@ -3,7 +3,7 @@
 
 This is my last job, I’m still working on the documentation, but I am sharing the screens as a summary.
 
-I used Contoso BI demo dataset to create this amazing dashboard, that I will explined detailed later.
+I used Contoso BI demo dataset to create this amazing dashboard, that I will explained detailed later.
 
 
 ## Data Base Model
